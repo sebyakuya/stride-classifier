@@ -1,0 +1,10 @@
+matplotlib==3.7.1
+neattext==0.1.3
+nltk==3.8.1
+numpy~=1.24.3
+pandas==2.0.1
+scikit-learn==1.2.2
+scikit-multilearn==0.2.0
+scipy==1.10.1
+skops==0.6.0
+openpyxl==3.1.2

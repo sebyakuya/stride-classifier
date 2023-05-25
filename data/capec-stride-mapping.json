@@ -1,0 +1,2574 @@
+{
+    "CAPEC S.T.R.I.D.E. Mapping": {
+        "link": "https://capec.mitre.org/data/definitions/1000.html",
+        "children": {
+            "Information Disclosure": {
+                "link": "",
+                "children": {
+                    "CAPEC-129: Pointer Manipulation": {
+                        "link": "https://capec.mitre.org/data/definitions/129.html",
+                        "children": {}
+                    },
+                    "CAPEC-212: Functionality Misuse": {
+                        "link": "https://capec.mitre.org/data/definitions/212.html",
+                        "children": {
+                            "CAPEC-48: Passing Local Filenames to Functions That Expect a URL": {
+                                "link": "https://capec.mitre.org/data/definitions/48.html",
+                                "children": {}
+                            },
+                            "CAPEC-111: JSON Hijacking  (aka JavaScript Hijacking)": {
+                                "link": "https://capec.mitre.org/data/definitions/111.html",
+                                "children": {}
+                            },
+                            "CAPEC-620: Drop Encryption Level": {
+                                "link": "https://capec.mitre.org/data/definitions/620.html",
+                                "children": {
+                                    "CAPEC-606: Weakening of Cellular Encryption": {
+                                        "link": "https://capec.mitre.org/data/definitions/606.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-216: Communication Channel Manipulation": {
+                        "link": "https://capec.mitre.org/data/definitions/216.html",
+                        "children": {
+                            "CAPEC-12: Choosing Message Identifier": {
+                                "link": "https://capec.mitre.org/data/definitions/12.html",
+                                "children": {}
+                            },
+                            "CAPEC-217: Exploiting Incorrectly Configured SSL": {
+                                "link": "https://capec.mitre.org/data/definitions/217.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-554: Functionality Bypass": {
+                        "link": "https://capec.mitre.org/data/definitions/554.html",
+                        "children": {
+                            "CAPEC-179: Calling Micro-Services Directly": {
+                                "link": "https://capec.mitre.org/data/definitions/179.html",
+                                "children": {}
+                            },
+                            "CAPEC-464: Evercookie": {
+                                "link": "https://capec.mitre.org/data/definitions/464.html",
+                                "children": {}
+                            },
+                            "CAPEC-465: Transparent Proxy Abuse": {
+                                "link": "https://capec.mitre.org/data/definitions/465.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-117: Interception": {
+                        "link": "https://capec.mitre.org/data/definitions/117.html",
+                        "children": {
+                            "CAPEC-157: Sniffing Attacks": {
+                                "link": "https://capec.mitre.org/data/definitions/157.html",
+                                "children": {
+                                    "CAPEC-57: Utilising REST's Trust in the System Resources to Obtain Sensitive Data": {
+                                        "link": "https://capec.mitre.org/data/definitions/57.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-65: Sniff Application Code": {
+                                        "link": "https://capec.mitre.org/data/definitions/65.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-158: Sniffing Network Traffic": {
+                                        "link": "https://capec.mitre.org/data/definitions/158.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-609: Cellular Traffic Intercept": {
+                                        "link": "https://capec.mitre.org/data/definitions/609.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-499: Android Intent Intercept": {
+                                "link": "https://capec.mitre.org/data/definitions/499.html",
+                                "children": {
+                                    "CAPEC-501: Android Activity Hijack": {
+                                        "link": "https://capec.mitre.org/data/definitions/501.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-651: Eavesdropping": {
+                                "link": "https://capec.mitre.org/data/definitions/651.html",
+                                "children": {
+                                    "CAPEC-508: Shoulder Surfing": {
+                                        "link": "https://capec.mitre.org/data/definitions/508.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-634: Probe Audio and Video Peripherals": {
+                                        "link": "https://capec.mitre.org/data/definitions/634.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-116: Excavation": {
+                        "link": "https://capec.mitre.org/data/definitions/116.html",
+                        "children": {
+                            "CAPEC-54: Query System for Information": {
+                                "link": "https://capec.mitre.org/data/definitions/54.html",
+                                "children": {
+                                    "CAPEC-127: Directory Indexing": {
+                                        "link": "https://capec.mitre.org/data/definitions/127.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-95: WSDL Scanning": {
+                                        "link": "https://capec.mitre.org/data/definitions/95.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-215: Fuzzing for Application Mapping": {
+                                        "link": "https://capec.mitre.org/data/definitions/215.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-261: Fuzzing for Garnering Other Adjacent user/sensitive data": {
+                                        "link": "https://capec.mitre.org/data/definitions/261.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-462: Cross-Domain Search Timing": {
+                                        "link": "https://capec.mitre.org/data/definitions/462.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-150: Collect Data From Common Resource Locations": {
+                                "link": "https://capec.mitre.org/data/definitions/150.html",
+                                "children": {
+                                    "CAPEC-143: Detect Unpublicised Web Pages": {
+                                        "link": "https://capec.mitre.org/data/definitions/143.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-144: Detect Unpublicised Web Services": {
+                                        "link": "https://capec.mitre.org/data/definitions/144.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-155: Screen Temporary Files for Sensitive Information": {
+                                        "link": "https://capec.mitre.org/data/definitions/155.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-406: Dumpster Diving": {
+                                        "link": "https://capec.mitre.org/data/definitions/406.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-637: Collect Data from Clipboard": {
+                                        "link": "https://capec.mitre.org/data/definitions/637.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-647: Collect Data from Registries": {
+                                        "link": "https://capec.mitre.org/data/definitions/647.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-648: Collect Data from Screen Capture": {
+                                        "link": "https://capec.mitre.org/data/definitions/648.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-545: Pull Data From System Resources": {
+                                "link": "https://capec.mitre.org/data/definitions/545.html",
+                                "children": {
+                                    "CAPEC-498: Probe iOS Screenshots": {
+                                        "link": "https://capec.mitre.org/data/definitions/498.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-546: Incomplete Data Deletion in a Multi-Tenant Environment": {
+                                        "link": "https://capec.mitre.org/data/definitions/546.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-634: Probe Audio and Video Peripherals": {
+                                        "link": "https://capec.mitre.org/data/definitions/634.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-639: Probe System Files": {
+                                        "link": "https://capec.mitre.org/data/definitions/639.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-569: Collect Data as Provided by Users": {
+                                "link": "https://capec.mitre.org/data/definitions/569.html",
+                                "children": {
+                                    "CAPEC-568: Capture Credentials via Keylogger": {
+                                        "link": "https://capec.mitre.org/data/definitions/568.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-675: Retrieve Data from Decommissioned Devices": {
+                                "link": "https://capec.mitre.org/data/definitions/675.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-169: Footprinting": {
+                        "link": "https://capec.mitre.org/data/definitions/169.html",
+                        "children": {
+                            "CAPEC-292: Host Discovery": {
+                                "link": "https://capec.mitre.org/data/definitions/292.html",
+                                "children": {
+                                    "CAPEC-285: ICMP Echo Request Ping": {
+                                        "link": "https://capec.mitre.org/data/definitions/285.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-294: ICMP Address Mask Request": {
+                                        "link": "https://capec.mitre.org/data/definitions/294.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-295: Timestamp Request": {
+                                        "link": "https://capec.mitre.org/data/definitions/295.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-296: ICMP Information Request": {
+                                        "link": "https://capec.mitre.org/data/definitions/296.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-297: TCP ACK Ping": {
+                                        "link": "https://capec.mitre.org/data/definitions/297.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-298: UDP Ping": {
+                                        "link": "https://capec.mitre.org/data/definitions/298.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-299: TCP SYN Ping": {
+                                        "link": "https://capec.mitre.org/data/definitions/299.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-612: WiFi MAC Address Tracking": {
+                                        "link": "https://capec.mitre.org/data/definitions/612.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-613: WiFi SSID Tracking": {
+                                        "link": "https://capec.mitre.org/data/definitions/613.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-618: Cellular Broadcast Message Request": {
+                                        "link": "https://capec.mitre.org/data/definitions/618.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-619: Signal Strength Tracking": {
+                                        "link": "https://capec.mitre.org/data/definitions/619.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-300: Port Scanning": {
+                                "link": "https://capec.mitre.org/data/definitions/300.html",
+                                "children": {
+                                    "CAPEC-287: TCP SYN Scan": {
+                                        "link": "https://capec.mitre.org/data/definitions/287.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-301: TCP Connect Scan": {
+                                        "link": "https://capec.mitre.org/data/definitions/301.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-302: TCP FIN Scan": {
+                                        "link": "https://capec.mitre.org/data/definitions/302.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-303: TCP Xmas Scan": {
+                                        "link": "https://capec.mitre.org/data/definitions/303.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-304: TCP Null Scan": {
+                                        "link": "https://capec.mitre.org/data/definitions/304.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-305: TCP ACK Scan": {
+                                        "link": "https://capec.mitre.org/data/definitions/305.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-306: TCP Window Scan": {
+                                        "link": "https://capec.mitre.org/data/definitions/306.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-307: TCP RPC Scan": {
+                                        "link": "https://capec.mitre.org/data/definitions/307.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-308: UDP Scan": {
+                                        "link": "https://capec.mitre.org/data/definitions/308.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-309: Network Topology Mapping": {
+                                "link": "https://capec.mitre.org/data/definitions/309.html",
+                                "children": {
+                                    "CAPEC-290: Enumerate Mail Exchange Records": {
+                                        "link": "https://capec.mitre.org/data/definitions/290.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-291: DNS Zone Transfers": {
+                                        "link": "https://capec.mitre.org/data/definitions/291.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-293: Traceroute Route Enumeration": {
+                                        "link": "https://capec.mitre.org/data/definitions/293.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-643: Identify Shared Files/Directories on System": {
+                                        "link": "https://capec.mitre.org/data/definitions/643.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-497: File Discovery": {
+                                "link": "https://capec.mitre.org/data/definitions/497.html",
+                                "children": {
+                                    "CAPEC-149: Explore for Predictable Temporary File Names": {
+                                        "link": "https://capec.mitre.org/data/definitions/149.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-529: Malware-Directed Internal Reconnaissance": {
+                                "link": "https://capec.mitre.org/data/definitions/529.html",
+                                "children": {}
+                            },
+                            "CAPEC-573: Process Footprinting": {
+                                "link": "https://capec.mitre.org/data/definitions/573.html",
+                                "children": {}
+                            },
+                            "CAPEC-574: Services Footprinting": {
+                                "link": "https://capec.mitre.org/data/definitions/574.html",
+                                "children": {}
+                            },
+                            "CAPEC-575: Account Footprinting": {
+                                "link": "https://capec.mitre.org/data/definitions/575.html",
+                                "children": {}
+                            },
+                            "CAPEC-576: Group Permission Footprinting": {
+                                "link": "https://capec.mitre.org/data/definitions/576.html",
+                                "children": {}
+                            },
+                            "CAPEC-577: Owner Footprinting": {
+                                "link": "https://capec.mitre.org/data/definitions/577.html",
+                                "children": {}
+                            },
+                            "CAPEC-580: System Footprinting": {
+                                "link": "https://capec.mitre.org/data/definitions/580.html",
+                                "children": {
+                                    "CAPEC-85: AJAX Footprinting": {
+                                        "link": "https://capec.mitre.org/data/definitions/85.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-581: Security Software Footprinting": {
+                                        "link": "https://capec.mitre.org/data/definitions/581.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-646: Peripheral Footprinting": {
+                                "link": "https://capec.mitre.org/data/definitions/646.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-224: Fingerprinting": {
+                        "link": "https://capec.mitre.org/data/definitions/224.html",
+                        "children": {
+                            "CAPEC-312: Active OS Fingerprinting": {
+                                "link": "https://capec.mitre.org/data/definitions/312.html",
+                                "children": {
+                                    "CAPEC-317: IP ID Sequencing Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/317.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-318: IP 'ID' Echoed Byte-Order Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/318.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-319: IP (DF) 'Don't Fragment Bit' Echoing Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/319.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-320: TCP Timestamp Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/320.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-321:  TCP Sequence Number Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/321.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-322: TCP (ISN) Greatest Common Divisor Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/322.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-323:  TCP (ISN) Counter Rate Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/323.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-324: TCP (ISN) Sequence Predictability Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/324.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-325: TCP Congestion Control Flag (ECN) Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/325.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-326: TCP Initial Window Size Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/326.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-327:  TCP Options Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/327.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-328: TCP 'RST' Flag Checksum Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/328.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-329: ICMP Error Message Quoting Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/329.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-330: ICMP Error Message Echoing Integrity Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/330.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-331:  ICMP IP Total Length Field Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/331.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-332:  ICMP IP 'ID' Field Error Message Probe": {
+                                        "link": "https://capec.mitre.org/data/definitions/332.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-313: Passive OS Fingerprinting": {
+                                "link": "https://capec.mitre.org/data/definitions/313.html",
+                                "children": {}
+                            },
+                            "CAPEC-541: Application Fingerprinting": {
+                                "link": "https://capec.mitre.org/data/definitions/541.html",
+                                "children": {
+                                    "CAPEC-170: Web Application Fingerprinting": {
+                                        "link": "https://capec.mitre.org/data/definitions/170.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-310: Scanning for Vulnerable Software": {
+                                        "link": "https://capec.mitre.org/data/definitions/310.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-472: Browser Fingerprinting": {
+                                        "link": "https://capec.mitre.org/data/definitions/472.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-11: Cause Web Server Misclassification": {
+                        "link": "https://capec.mitre.org/data/definitions/11.html",
+                        "children": {}
+                    },
+                    "CAPEC-192: Protocol Analysis": {
+                        "link": "https://capec.mitre.org/data/definitions/192.html",
+                        "children": {
+                            "CAPEC-97: Cryptanalysis": {
+                                "link": "https://capec.mitre.org/data/definitions/97.html",
+                                "children": {
+                                    "CAPEC-463: Padding Oracle Crypto Attack": {
+                                        "link": "https://capec.mitre.org/data/definitions/463.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-608: Cryptanalysis of Cellular Encryption": {
+                                        "link": "https://capec.mitre.org/data/definitions/608.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-188: Reverse Engineering": {
+                        "link": "https://capec.mitre.org/data/definitions/188.html",
+                        "children": {
+                            "CAPEC-167: White Box Reverse Engineering": {
+                                "link": "https://capec.mitre.org/data/definitions/167.html",
+                                "children": {
+                                    "CAPEC-37: Retrieve Embedded Sensitive Information": {
+                                        "link": "https://capec.mitre.org/data/definitions/37.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-190: Reverse Engineer an Executable to Expose Assumed Hidden Functionality": {
+                                        "link": "https://capec.mitre.org/data/definitions/190.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-191: Read Sensitive Constants Within an Executable": {
+                                        "link": "https://capec.mitre.org/data/definitions/191.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-204: Lifting Sensitive Data Embedded in Cache": {
+                                        "link": "https://capec.mitre.org/data/definitions/204.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-189: Black Box Reverse Engineering": {
+                                "link": "https://capec.mitre.org/data/definitions/189.html",
+                                "children": {
+                                    "CAPEC-621: Analysis of Packet Timing and Sizes": {
+                                        "link": "https://capec.mitre.org/data/definitions/621.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-622: Electromagnetic Side-Channel Attack": {
+                                        "link": "https://capec.mitre.org/data/definitions/622.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-623: Compromising Emanations Attack": {
+                                        "link": "https://capec.mitre.org/data/definitions/623.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-410: Information Elicitation": {
+                        "link": "https://capec.mitre.org/data/definitions/410.html",
+                        "children": {
+                            "CAPEC-407: Pretexting": {
+                                "link": "https://capec.mitre.org/data/definitions/407.html",
+                                "children": {
+                                    "CAPEC-383: Harvesting Information via API Event Monitoring": {
+                                        "link": "https://capec.mitre.org/data/definitions/383.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-412: Pretexting via Customer Service": {
+                                        "link": "https://capec.mitre.org/data/definitions/412.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-413: Pretexting via Tech Support": {
+                                        "link": "https://capec.mitre.org/data/definitions/413.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-414: Pretexting via Delivery Person": {
+                                        "link": "https://capec.mitre.org/data/definitions/414.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-415: Pretexting via Phone": {
+                                        "link": "https://capec.mitre.org/data/definitions/415.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "Elevation of Privilege": {
+                "link": "",
+                "children": {
+                    "CAPEC-5: Blue Boxing": {
+                        "link": "https://capec.mitre.org/data/definitions/5.html",
+                        "children": {}
+                    },
+                    "CAPEC-21: Exploitation of Trusted Identifiers": {
+                        "link": "https://capec.mitre.org/data/definitions/21.html",
+                        "children": {
+                            "CAPEC-196: Session Credential Falsification through Forging": {
+                                "link": "https://capec.mitre.org/data/definitions/196.html",
+                                "children": {
+                                    "CAPEC-226: Session Credential Falsification through Manipulation": {
+                                        "link": "https://capec.mitre.org/data/definitions/226.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-59: Session Credential Falsification through Prediction": {
+                                        "link": "https://capec.mitre.org/data/definitions/59.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-510: SaaS User Request Forgery": {
+                                "link": "https://capec.mitre.org/data/definitions/510.html",
+                                "children": {}
+                            },
+                            "CAPEC-593: Session Hijacking": {
+                                "link": "https://capec.mitre.org/data/definitions/593.html",
+                                "children": {
+                                    "CAPEC-102: Session Sidejacking": {
+                                        "link": "https://capec.mitre.org/data/definitions/102.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-107: Cross Site Tracing": {
+                                        "link": "https://capec.mitre.org/data/definitions/107.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-60: Reusing Session IDs  (aka Session Replay)": {
+                                        "link": "https://capec.mitre.org/data/definitions/60.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-61: Session Fixation": {
+                                        "link": "https://capec.mitre.org/data/definitions/61.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-62: Cross Site Request Forgery": {
+                                "link": "https://capec.mitre.org/data/definitions/62.html",
+                                "children": {
+                                    "CAPEC-467: Cross Site Identification": {
+                                        "link": "https://capec.mitre.org/data/definitions/467.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-114: Authentication Abuse": {
+                        "link": "https://capec.mitre.org/data/definitions/114.html",
+                        "children": {
+                            "CAPEC-629: Unauthorized Use of Device Resources": {
+                                "link": "https://capec.mitre.org/data/definitions/629.html",
+                                "children": {}
+                            },
+                            "CAPEC-90: Reflection Attack in Authentication Protocol": {
+                                "link": "https://capec.mitre.org/data/definitions/90.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-115: Authentication Bypass": {
+                        "link": "https://capec.mitre.org/data/definitions/115.html",
+                        "children": {
+                            "CAPEC-461: Web Services API Signature Forgery Leveraging Hash Function Extension Weakness": {
+                                "link": "https://capec.mitre.org/data/definitions/461.html",
+                                "children": {}
+                            },
+                            "CAPEC-480: Escaping Virtualization": {
+                                "link": "https://capec.mitre.org/data/definitions/480.html",
+                                "children": {
+                                    "CAPEC-237: Escaping a Sandbox by Calling Code in Another Language": {
+                                        "link": "https://capec.mitre.org/data/definitions/237.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-664: Server Side Request Forgery": {
+                                "link": "https://capec.mitre.org/data/definitions/664.html",
+                                "children": {}
+                            },
+                            "CAPEC-668: Key Negotiation of Bluetooth Attack (KNOB)": {
+                                "link": "https://capec.mitre.org/data/definitions/668.html",
+                                "children": {}
+                            },
+                            "CAPEC-87: Forceful Browsing": {
+                                "link": "https://capec.mitre.org/data/definitions/87.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-22: Exploiting Trust in Client": {
+                        "link": "https://capec.mitre.org/data/definitions/22.html",
+                        "children": {
+                            "CAPEC-202: Create Malicious Client": {
+                                "link": "https://capec.mitre.org/data/definitions/202.html",
+                                "children": {}
+                            },
+                            "CAPEC-207: Removing Important Client Functionality": {
+                                "link": "https://capec.mitre.org/data/definitions/207.html",
+                                "children": {
+                                    "CAPEC-200: Removal of filters: Input filters, output filters, data masking": {
+                                        "link": "https://capec.mitre.org/data/definitions/200.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-208: Removing/short-circuiting 'Purse' logic: removing/mutating 'cash' decrements": {
+                                        "link": "https://capec.mitre.org/data/definitions/208.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-39: Manipulating Opaque Client-based Data Tokens": {
+                                "link": "https://capec.mitre.org/data/definitions/39.html",
+                                "children": {
+                                    "CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies": {
+                                        "link": "https://capec.mitre.org/data/definitions/31.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-77: Manipulating User-Controlled Variables": {
+                                "link": "https://capec.mitre.org/data/definitions/77.html",
+                                "children": {
+                                    "CAPEC-13: Subverting Environment Variable Values": {
+                                        "link": "https://capec.mitre.org/data/definitions/13.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-162: Manipulating Hidden Fields": {
+                                        "link": "https://capec.mitre.org/data/definitions/162.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-94: Adversary in the Middle (AiTM)": {
+                        "link": "https://capec.mitre.org/data/definitions/94.html",
+                        "children": {
+                            "CAPEC-219: XML Routing Detour Attacks": {
+                                "link": "https://capec.mitre.org/data/definitions/219.html",
+                                "children": {}
+                            },
+                            "CAPEC-384: Application API Message Manipulation via Man-in-the-Middle": {
+                                "link": "https://capec.mitre.org/data/definitions/384.html",
+                                "children": {
+                                    "CAPEC-385: Transaction or Event Tampering via Application API Manipulation": {
+                                        "link": "https://capec.mitre.org/data/definitions/385.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-389: Content Spoofing Via Application API Manipulation": {
+                                        "link": "https://capec.mitre.org/data/definitions/389.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-386: Application API Navigation Remapping": {
+                                "link": "https://capec.mitre.org/data/definitions/386.html",
+                                "children": {
+                                    "CAPEC-387: Navigation Remapping To Propagate Malicious Content": {
+                                        "link": "https://capec.mitre.org/data/definitions/387.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-388: Application API Button Hijacking": {
+                                        "link": "https://capec.mitre.org/data/definitions/388.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-466: Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy": {
+                                "link": "https://capec.mitre.org/data/definitions/466.html",
+                                "children": {}
+                            },
+                            "CAPEC-662: Adversary in the Browser (AiTB)": {
+                                "link": "https://capec.mitre.org/data/definitions/662.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-122: Privilege Abuse": {
+                        "link": "https://capec.mitre.org/data/definitions/122.html",
+                        "children": {
+                            "CAPEC-1: Accessing Functionality Not Properly Constrained by ACLs": {
+                                "link": "https://capec.mitre.org/data/definitions/1.html",
+                                "children": {
+                                    "CAPEC-58: Restful Privilege Elevation": {
+                                        "link": "https://capec.mitre.org/data/definitions/58.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-679: Exploitation of Improperly Configured or Implemented Memory Protections": {
+                                        "link": "https://capec.mitre.org/data/definitions/679.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-680: Exploitation of Improperly Controlled Registers": {
+                                        "link": "https://capec.mitre.org/data/definitions/680.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-681: Exploitation of Improperly Controlled Hardware Security Identifiers": {
+                                        "link": "https://capec.mitre.org/data/definitions/681.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-36: Using Unpublished Interfaces": {
+                                        "link": "https://capec.mitre.org/data/definitions/36.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-121: Exploit Non-Production Interfaces": {
+                                        "link": "https://capec.mitre.org/data/definitions/121.html",
+                                        "children": {
+                                            "CAPEC-661: Root/Jailbreak Detection Evasion via Debugging": {
+                                                "link": "https://capec.mitre.org/data/definitions/661.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "CAPEC-17: Using Malicious Files": {
+                                "link": "https://capec.mitre.org/data/definitions/17.html",
+                                "children": {
+                                    "CAPEC-177: Create files with the same name as files protected with a higher classification": {
+                                        "link": "https://capec.mitre.org/data/definitions/177.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-263: Force Use of Corrupted Files": {
+                                        "link": "https://capec.mitre.org/data/definitions/263.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-562: Modify Shared File": {
+                                        "link": "https://capec.mitre.org/data/definitions/562.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-563: Add Malicious File to Shared Webroot": {
+                                        "link": "https://capec.mitre.org/data/definitions/563.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-642: Replace Binaries": {
+                                        "link": "https://capec.mitre.org/data/definitions/642.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-650: Upload a Web Shell to a Web Server": {
+                                        "link": "https://capec.mitre.org/data/definitions/650.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-35: Leveraging Executable Code in Non-Executable Files": {
+                                        "link": "https://capec.mitre.org/data/definitions/35.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-180: Exploiting Incorrectly Configured Access Control Security Levels": {
+                                "link": "https://capec.mitre.org/data/definitions/180.html",
+                                "children": {}
+                            },
+                            "CAPEC-221: Data Serialization External Entities Blowup": {
+                                "link": "https://capec.mitre.org/data/definitions/221.html",
+                                "children": {}
+                            },
+                            "CAPEC-503: WebView Exposure": {
+                                "link": "https://capec.mitre.org/data/definitions/503.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-233: Privilege Escalation": {
+                        "link": "https://capec.mitre.org/data/definitions/233.html",
+                        "children": {
+                            "CAPEC-104: Cross Zone Scripting": {
+                                "link": "https://capec.mitre.org/data/definitions/104.html",
+                                "children": {}
+                            },
+                            "CAPEC-234: Hijacking a privileged process": {
+                                "link": "https://capec.mitre.org/data/definitions/234.html",
+                                "children": {}
+                            },
+                            "CAPEC-30: Hijacking a Privileged Thread of Execution": {
+                                "link": "https://capec.mitre.org/data/definitions/30.html",
+                                "children": {}
+                            },
+                            "CAPEC-68: Subvert Code-signing Facilities": {
+                                "link": "https://capec.mitre.org/data/definitions/68.html",
+                                "children": {}
+                            },
+                            "CAPEC-69: Target Programs with Elevated Privileges": {
+                                "link": "https://capec.mitre.org/data/definitions/69.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-390: Bypassing Physical Security": {
+                        "link": "https://capec.mitre.org/data/definitions/390.html",
+                        "children": {
+                            "CAPEC-391: Bypassing Physical Locks": {
+                                "link": "https://capec.mitre.org/data/definitions/391.html",
+                                "children": {
+                                    "CAPEC-392: Lock Bumping": {
+                                        "link": "https://capec.mitre.org/data/definitions/392.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-393: Lock Picking": {
+                                        "link": "https://capec.mitre.org/data/definitions/393.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-394: Using a Snap Gun Lock to Force a Lock": {
+                                        "link": "https://capec.mitre.org/data/definitions/394.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-395: Bypassing Electronic Locks and Access Controls": {
+                                "link": "https://capec.mitre.org/data/definitions/395.html",
+                                "children": {
+                                    "CAPEC-397: Cloning Magnetic Strip Cards": {
+                                        "link": "https://capec.mitre.org/data/definitions/397.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-398: Magnetic Strip Card Brute Force Attacks": {
+                                        "link": "https://capec.mitre.org/data/definitions/398.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-399: Cloning RFID Cards or Chips": {
+                                        "link": "https://capec.mitre.org/data/definitions/399.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-400: RFID Chip Deactivation or Destruction": {
+                                        "link": "https://capec.mitre.org/data/definitions/400.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-626: Smudge Attack": {
+                                        "link": "https://capec.mitre.org/data/definitions/626.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-507: Physical Theft": {
+                        "link": "https://capec.mitre.org/data/definitions/507.html",
+                        "children": {}
+                    },
+                    "CAPEC-560: Use of Known Domain Credentials": {
+                        "link": "https://capec.mitre.org/data/definitions/560.html",
+                        "children": {
+                            "CAPEC-555: Remote Services with Stolen Credentials": {
+                                "link": "https://capec.mitre.org/data/definitions/555.html",
+                                "children": {}
+                            },
+                            "CAPEC-600: Credential Stuffing": {
+                                "link": "https://capec.mitre.org/data/definitions/600.html",
+                                "children": {}
+                            },
+                            "CAPEC-652: Use of Known Kerberos Credentials": {
+                                "link": "https://capec.mitre.org/data/definitions/652.html",
+                                "children": {
+                                    "CAPEC-509: Kerberoasting": {
+                                        "link": "https://capec.mitre.org/data/definitions/509.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-645: Use of Captured Tickets (Pass The Ticket)": {
+                                        "link": "https://capec.mitre.org/data/definitions/645.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-653: Use of Known Windows Credentials": {
+                                "link": "https://capec.mitre.org/data/definitions/653.html",
+                                "children": {
+                                    "CAPEC-561: Windows Admin Shares with Stolen Credentials": {
+                                        "link": "https://capec.mitre.org/data/definitions/561.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-644: Use of Captured Hashes (Pass The Hash)": {
+                                        "link": "https://capec.mitre.org/data/definitions/644.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "Password Abuse": {
+                        "link": "",
+                        "children": {
+                            "CAPEC-50: Password Recovery Exploitation": {
+                                "link": "https://capec.mitre.org/data/definitions/50.html",
+                                "children": {}
+                            },
+                            "CAPEC-16: Dictionary Based Password Attack": {
+                                "link": "https://capec.mitre.org/data/definitions/16.html",
+                                "children": {}
+                            },
+                            "CAPEC-49: Password Brute Forcing": {
+                                "link": "https://capec.mitre.org/data/definitions/49.html",
+                                "children": {
+                                    "CAPEC-565: Password Spraying": {
+                                        "link": "https://capec.mitre.org/data/definitions/565.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-70: Try Common or Default Usernames and Passwords": {
+                                "link": "https://capec.mitre.org/data/definitions/70.html",
+                                "children": {}
+                            },
+                            "CAPEC-55: Rainbow Table Password Cracking": {
+                                "link": "https://capec.mitre.org/data/definitions/55.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "Encryption Abuse": {
+                        "link": "",
+                        "children": {
+                            "CAPEC-112: Brute Force": {
+                                "link": "https://capec.mitre.org/data/definitions/112.html",
+                                "children": {}
+                            },
+                            "CAPEC-20: Encryption Brute Forcing": {
+                                "link": "https://capec.mitre.org/data/definitions/20.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-549: Local Code Execution": {
+                        "link": "https://capec.mitre.org/data/definitions/549.html",
+                        "children": {
+                            "CAPEC-542: Targeted Malware": {
+                                "link": "https://capec.mitre.org/data/definitions/542.html",
+                                "children": {
+                                    "CAPEC-550: Install New Service": {
+                                        "link": "https://capec.mitre.org/data/definitions/550.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-551: Modify Existing Service": {
+                                        "link": "https://capec.mitre.org/data/definitions/551.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-552: Install Rootkit": {
+                                        "link": "https://capec.mitre.org/data/definitions/552.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-556: Replace File Extension Handlers": {
+                                        "link": "https://capec.mitre.org/data/definitions/556.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-558: Replace Trusted Executable": {
+                                        "link": "https://capec.mitre.org/data/definitions/558.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-564: Run Software at Login": {
+                                        "link": "https://capec.mitre.org/data/definitions/564.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-579: Replace Winlogon Helper DLL": {
+                                        "link": "https://capec.mitre.org/data/definitions/579.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-248: Command Injection": {
+                        "link": "https://capec.mitre.org/data/definitions/248.html",
+                        "children": {
+                            "CAPEC-136: LDAP Injection": {
+                                "link": "https://capec.mitre.org/data/definitions/136.html",
+                                "children": {}
+                            },
+                            "CAPEC-66: SQL Injection": {
+                                "link": "https://capec.mitre.org/data/definitions/66.html",
+                                "children": {
+                                    "CAPEC-7: Blind SQL Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/7.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-109: Object Relational Mapping Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/109.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-110: SQL Injection through SOAP Parameter Tampering": {
+                                        "link": "https://capec.mitre.org/data/definitions/110.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-108: Command Line Execution through SQL Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/108.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-470: Expanding Control over the Operating System from the Database": {
+                                        "link": "https://capec.mitre.org/data/definitions/470.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-88: OS Command Injection": {
+                                "link": "https://capec.mitre.org/data/definitions/88.html",
+                                "children": {}
+                            },
+                            "CAPEC-183: IMAP/SMTP Command Injection": {
+                                "link": "https://capec.mitre.org/data/definitions/183.html",
+                                "children": {}
+                            },
+                            "CAPEC-250: XML Injection": {
+                                "link": "https://capec.mitre.org/data/definitions/250.html",
+                                "children": {
+                                    "CAPEC-83: XPath Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/83.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-84: XQuery Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/84.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-228: DTD Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/228.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-676: NoSQL Injection": {
+                                "link": "https://capec.mitre.org/data/definitions/676.html",
+                                "children": {}
+                            },
+                            "CAPEC-40: Manipulating Writeable Terminal Devices": {
+                                "link": "https://capec.mitre.org/data/definitions/40.html",
+                                "children": {}
+                            },
+                            "CAPEC-137: Parameter Injection": {
+                                "link": "https://capec.mitre.org/data/definitions/137.html",
+                                "children": {
+                                    "CAPEC-6: Argument Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/6.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-15: Command Delimiters": {
+                                        "link": "https://capec.mitre.org/data/definitions/15.html",
+                                        "children": {
+                                            "CAPEC-460: HTTP Parameter Pollution  (HPP)": {
+                                                "link": "https://capec.mitre.org/data/definitions/460.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "CAPEC-134: Email Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/134.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-135: Format String Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/135.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-138: Reflection Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/138.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-182: Flash Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/182.html",
+                                        "children": {
+                                            "CAPEC-174: Flash Parameter Injection": {
+                                                "link": "https://capec.mitre.org/data/definitions/174.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-178: Cross-Site Flashing": {
+                                                "link": "https://capec.mitre.org/data/definitions/178.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "CAPEC-175: Code Inclusion": {
+                                "link": "https://capec.mitre.org/data/definitions/175.html",
+                                "children": {
+                                    "CAPEC-251: Local Code Inclusion": {
+                                        "link": "https://capec.mitre.org/data/definitions/251.html",
+                                        "children": {
+                                            "CAPEC-252: PHP Local File Inclusion": {
+                                                "link": "https://capec.mitre.org/data/definitions/252.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-640: Inclusion of Code in Existing Process": {
+                                                "link": "https://capec.mitre.org/data/definitions/640.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-660: Root/Jailbreak Detection Evasion via Hooking": {
+                                                "link": "https://capec.mitre.org/data/definitions/660.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "CAPEC-253: Remote Code Inclusion": {
+                                        "link": "https://capec.mitre.org/data/definitions/253.html",
+                                        "children": {
+                                            "CAPEC-101: Server Side Include (SSI) Injection": {
+                                                "link": "https://capec.mitre.org/data/definitions/101.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-193: PHP Remote File Inclusion": {
+                                                "link": "https://capec.mitre.org/data/definitions/193.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-500: WebView Injection": {
+                                                "link": "https://capec.mitre.org/data/definitions/500.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-242: Code Injection": {
+                        "link": "https://capec.mitre.org/data/definitions/242.html",
+                        "children": {
+                            "CAPEC-19: Embedding Scripts within Scripts": {
+                                "link": "https://capec.mitre.org/data/definitions/19.html",
+                                "children": {}
+                            },
+                            "CAPEC-23: File Content Injection": {
+                                "link": "https://capec.mitre.org/data/definitions/23.html",
+                                "children": {
+                                    "CAPEC-44: Overflow Binary Resource File": {
+                                        "link": "https://capec.mitre.org/data/definitions/44.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-41: Using Meta-Characters in E-mail Headers to Inject Malicious Payloads": {
+                                "link": "https://capec.mitre.org/data/definitions/41.html",
+                                "children": {}
+                            },
+                            "CAPEC-63: Cross-site Scripting (XSS)": {
+                                "link": "https://capec.mitre.org/data/definitions/63.html",
+                                "children": {
+                                    "CAPEC-588: DOM-Based XSS": {
+                                        "link": "https://capec.mitre.org/data/definitions/588.html",
+                                        "children": {
+                                            "CAPEC-18: XSS Through Non-Script Elements": {
+                                                "link": "https://capec.mitre.org/data/definitions/18.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-32: XSS Through HTTP Query String": {
+                                                "link": "https://capec.mitre.org/data/definitions/32.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-86: XSS Through HTTP Headers": {
+                                                "link": "https://capec.mitre.org/data/definitions/86.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-198: XSS Targeting Error Pages": {
+                                                "link": "https://capec.mitre.org/data/definitions/198.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-199: XSS Using Alternate Syntax": {
+                                                "link": "https://capec.mitre.org/data/definitions/199.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-243: XSS Targeting HTML Attributes": {
+                                                "link": "https://capec.mitre.org/data/definitions/243.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-244: XSS Targeting URI Placeholders": {
+                                                "link": "https://capec.mitre.org/data/definitions/244.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-245: XSS Using Doubled Characters": {
+                                                "link": "https://capec.mitre.org/data/definitions/245.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-247: XSS Using Invalid Characters": {
+                                                "link": "https://capec.mitre.org/data/definitions/247.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "CAPEC-591: Reflected XSS": {
+                                        "link": "https://capec.mitre.org/data/definitions/591.html",
+                                        "children": {
+                                            "CAPEC-18: XSS Through Non-Script Elements": {
+                                                "link": "https://capec.mitre.org/data/definitions/18.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-32: XSS Through HTTP Query String": {
+                                                "link": "https://capec.mitre.org/data/definitions/32.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-86: XSS Through HTTP Headers": {
+                                                "link": "https://capec.mitre.org/data/definitions/86.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-198: XSS Targeting Error Pages": {
+                                                "link": "https://capec.mitre.org/data/definitions/198.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-199: XSS Using Alternate Syntax": {
+                                                "link": "https://capec.mitre.org/data/definitions/199.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-243: XSS Targeting HTML Attributes": {
+                                                "link": "https://capec.mitre.org/data/definitions/243.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-244: XSS Targeting URI Placeholders": {
+                                                "link": "https://capec.mitre.org/data/definitions/244.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-245: XSS Using Doubled Characters": {
+                                                "link": "https://capec.mitre.org/data/definitions/245.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-247: XSS Using Invalid Characters": {
+                                                "link": "https://capec.mitre.org/data/definitions/247.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "CAPEC-592: Stored XSS": {
+                                        "link": "https://capec.mitre.org/data/definitions/592.html",
+                                        "children": {
+                                            "CAPEC-18: XSS Through Non-Script Elements": {
+                                                "link": "https://capec.mitre.org/data/definitions/18.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-32: XSS Through HTTP Query String": {
+                                                "link": "https://capec.mitre.org/data/definitions/32.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-86: XSS Through HTTP Headers": {
+                                                "link": "https://capec.mitre.org/data/definitions/86.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-198: XSS Targeting Error Pages": {
+                                                "link": "https://capec.mitre.org/data/definitions/198.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-199: XSS Using Alternate Syntax": {
+                                                "link": "https://capec.mitre.org/data/definitions/199.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-243: XSS Targeting HTML Attributes": {
+                                                "link": "https://capec.mitre.org/data/definitions/243.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-244: XSS Targeting URI Placeholders": {
+                                                "link": "https://capec.mitre.org/data/definitions/244.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-245: XSS Using Doubled Characters": {
+                                                "link": "https://capec.mitre.org/data/definitions/245.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-247: XSS Using Invalid Characters": {
+                                                "link": "https://capec.mitre.org/data/definitions/247.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-209: XSS Using MIME Type Mismatch": {
+                                                "link": "https://capec.mitre.org/data/definitions/209.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "CAPEC-468: Generic Cross-Browser Cross-Domain Theft": {
+                                "link": "https://capec.mitre.org/data/definitions/468.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-240: Resource Injection": {
+                        "link": "https://capec.mitre.org/data/definitions/240.html",
+                        "children": {
+                            "CAPEC-610: Cellular Data Injection": {
+                                "link": "https://capec.mitre.org/data/definitions/610.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-586: Object Injection": {
+                        "link": "https://capec.mitre.org/data/definitions/586.html",
+                        "children": {}
+                    }
+                }
+            },
+            "Denial of Service": {
+                "link": "",
+                "children": {
+                    "CAPEC-125: Flooding": {
+                        "link": "https://capec.mitre.org/data/definitions/125.html",
+                        "children": {
+                            "CAPEC-482: TCP Flood": {
+                                "link": "https://capec.mitre.org/data/definitions/482.html",
+                                "children": {}
+                            },
+                            "CAPEC-486: UDP Flood": {
+                                "link": "https://capec.mitre.org/data/definitions/486.html",
+                                "children": {}
+                            },
+                            "CAPEC-487: ICMP Flood": {
+                                "link": "https://capec.mitre.org/data/definitions/487.html",
+                                "children": {}
+                            },
+                            "CAPEC-488: HTTP Flood": {
+                                "link": "https://capec.mitre.org/data/definitions/488.html",
+                                "children": {}
+                            },
+                            "CAPEC-489: SSL Flood": {
+                                "link": "https://capec.mitre.org/data/definitions/489.html",
+                                "children": {}
+                            },
+                            "CAPEC-490: Amplification": {
+                                "link": "https://capec.mitre.org/data/definitions/490.html",
+                                "children": {}
+                            },
+                            "CAPEC-528: XML Flood": {
+                                "link": "https://capec.mitre.org/data/definitions/528.html",
+                                "children": {
+                                    "CAPEC-147: XML Ping of the Death": {
+                                        "link": "https://capec.mitre.org/data/definitions/147.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-666: BlueSmacking": {
+                                "link": "https://capec.mitre.org/data/definitions/666.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-130: Excessive Allocation": {
+                        "link": "https://capec.mitre.org/data/definitions/130.html",
+                        "children": {
+                            "CAPEC-230: Serialized Data with Nested Payloads": {
+                                "link": "https://capec.mitre.org/data/definitions/230.html",
+                                "children": {
+                                    "CAPEC-197: Exponential Data Expansion": {
+                                        "link": "https://capec.mitre.org/data/definitions/197.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-491: Quadratic Data Expansion": {
+                                        "link": "https://capec.mitre.org/data/definitions/491.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-231: Oversized Serialized Data Payloads": {
+                                "link": "https://capec.mitre.org/data/definitions/231.html",
+                                "children": {
+                                    "CAPEC-201: Serialized Data External Linking": {
+                                        "link": "https://capec.mitre.org/data/definitions/201.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-229: Serialized Data Parameter Blowup": {
+                                        "link": "https://capec.mitre.org/data/definitions/229.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-492: Regular Expression Exponential Blowup": {
+                                "link": "https://capec.mitre.org/data/definitions/492.html",
+                                "children": {}
+                            },
+                            "CAPEC-493: SOAP Array Blowup": {
+                                "link": "https://capec.mitre.org/data/definitions/493.html",
+                                "children": {}
+                            },
+                            "CAPEC-494: TCP Fragmentation": {
+                                "link": "https://capec.mitre.org/data/definitions/494.html",
+                                "children": {}
+                            },
+                            "CAPEC-495: UDP Fragmentation": {
+                                "link": "https://capec.mitre.org/data/definitions/495.html",
+                                "children": {}
+                            },
+                            "CAPEC-496: ICMP Fragmentation": {
+                                "link": "https://capec.mitre.org/data/definitions/496.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-131: Resource Leak Exposure": {
+                        "link": "https://capec.mitre.org/data/definitions/131.html",
+                        "children": {}
+                    },
+                    "CAPEC-227: Sustained Client Engagement": {
+                        "link": "https://capec.mitre.org/data/definitions/227.html",
+                        "children": {
+                            "CAPEC-469: HTTP DoS": {
+                                "link": "https://capec.mitre.org/data/definitions/469.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-25: Forced Deadlock": {
+                        "link": "https://capec.mitre.org/data/definitions/25.html",
+                        "children": {}
+                    },
+                    "CAPEC-607: Obstruction": {
+                        "link": "https://capec.mitre.org/data/definitions/607.html",
+                        "children": {
+                            "CAPEC-547: Physical Destruction of Device or Component": {
+                                "link": "https://capec.mitre.org/data/definitions/547.html",
+                                "children": {}
+                            },
+                            "CAPEC-582: Route Disabling": {
+                                "link": "https://capec.mitre.org/data/definitions/582.html",
+                                "children": {
+                                    "CAPEC-583: Disabling Network Hardware": {
+                                        "link": "https://capec.mitre.org/data/definitions/583.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-584: BGP Route Disabling": {
+                                        "link": "https://capec.mitre.org/data/definitions/584.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-585: DNS Domain Seizure": {
+                                        "link": "https://capec.mitre.org/data/definitions/585.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-601: Jamming": {
+                                "link": "https://capec.mitre.org/data/definitions/601.html",
+                                "children": {
+                                    "CAPEC-559: Orbital Jamming": {
+                                        "link": "https://capec.mitre.org/data/definitions/559.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-604: Wi-Fi Jamming": {
+                                        "link": "https://capec.mitre.org/data/definitions/604.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-605: Cellular Jamming": {
+                                        "link": "https://capec.mitre.org/data/definitions/605.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-603: Blockage": {
+                                "link": "https://capec.mitre.org/data/definitions/603.html",
+                                "children": {
+                                    "CAPEC-589: DNS Blocking": {
+                                        "link": "https://capec.mitre.org/data/definitions/589.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-590: IP Address Blocking": {
+                                        "link": "https://capec.mitre.org/data/definitions/590.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-96: Block Access to Libraries": {
+                                        "link": "https://capec.mitre.org/data/definitions/96.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-2: Inducing Account Lockout": {
+                        "link": "https://capec.mitre.org/data/definitions/2.html",
+                        "children": {}
+                    }
+                }
+            },
+            "Repudiation": {
+                "link": "",
+                "children": {
+                    "CAPEC-268: Audit Log Manipulation": {
+                        "link": "https://capec.mitre.org/data/definitions/268.html",
+                        "children": {
+                            "CAPEC-93: Log Injection-Tampering-Forging": {
+                                "link": "https://capec.mitre.org/data/definitions/93.html",
+                                "children": {}
+                            },
+                            "CAPEC-81: Web Logs Tampering": {
+                                "link": "https://capec.mitre.org/data/definitions/81.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-571: Block Logging to Central Repository": {
+                        "link": "https://capec.mitre.org/data/definitions/571.html",
+                        "children": {}
+                    },
+                    "CAPEC-67: String Format Overflow in syslog()": {
+                        "link": "https://capec.mitre.org/data/definitions/67.html",
+                        "children": {}
+                    },
+                    "CAPEC-195: Principal Spoof": {
+                        "link": "https://capec.mitre.org/data/definitions/195.html",
+                        "children": {
+                            "CAPEC-587: Cross Frame Scripting (XFS)": {
+                                "link": "https://capec.mitre.org/data/definitions/587.html",
+                                "children": {}
+                            },
+                            "CAPEC-599: Terrestrial Jamming": {
+                                "link": "https://capec.mitre.org/data/definitions/599.html",
+                                "children": {}
+                            }
+                        }
+                    }
+                }
+            },
+            "Tampering": {
+                "link": "",
+                "children": {
+                    "CAPEC-123: Buffer Manipulation": {
+                        "link": "https://capec.mitre.org/data/definitions/123.html",
+                        "children": {
+                            "CAPEC-100: Overflow Buffers": {
+                                "link": "https://capec.mitre.org/data/definitions/100.html",
+                                "children": {
+                                    "CAPEC-10: Buffer Overflow via Environment Variables": {
+                                        "link": "https://capec.mitre.org/data/definitions/10.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-14: Client-side Injection-induced Buffer Overflow": {
+                                        "link": "https://capec.mitre.org/data/definitions/14.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-24: Filter Failure through Buffer Overflow": {
+                                        "link": "https://capec.mitre.org/data/definitions/24.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-256: SOAP Array Overflow": {
+                                        "link": "https://capec.mitre.org/data/definitions/256.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-42: MIME Conversion": {
+                                        "link": "https://capec.mitre.org/data/definitions/42.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-44: Overflow Binary Resource File": {
+                                        "link": "https://capec.mitre.org/data/definitions/44.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-45: Buffer Overflow via Symbolic Links": {
+                                        "link": "https://capec.mitre.org/data/definitions/45.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-46: Overflow Variables and Tags": {
+                                        "link": "https://capec.mitre.org/data/definitions/46.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-47: Buffer Overflow via Parameter Expansion": {
+                                        "link": "https://capec.mitre.org/data/definitions/47.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-67: String Format Overflow in syslog()": {
+                                        "link": "https://capec.mitre.org/data/definitions/67.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-8: Buffer Overflow in an API Call": {
+                                        "link": "https://capec.mitre.org/data/definitions/8.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-9: Buffer Overflow in Local Command-Line Utilities": {
+                                        "link": "https://capec.mitre.org/data/definitions/9.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-540: Overread Buffers": {
+                                "link": "https://capec.mitre.org/data/definitions/540.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-124: Shared Resource Manipulation": {
+                        "link": "https://capec.mitre.org/data/definitions/124.html",
+                        "children": {
+                            "CAPEC-26: Leveraging Race Conditions": {
+                                "link": "https://capec.mitre.org/data/definitions/26.html",
+                                "children": {}
+                            },
+                            "CAPEC-27: Leveraging Race Conditions via Symbolic Links": {
+                                "link": "https://capec.mitre.org/data/definitions/27.html",
+                                "children": {}
+                            },
+                            "CAPEC-29: Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions": {
+                                "link": "https://capec.mitre.org/data/definitions/29.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-129: Pointer Manipulation": {
+                        "link": "https://capec.mitre.org/data/definitions/129.html",
+                        "children": {}
+                    },
+                    "CAPEC-272: Protocol Manipulation": {
+                        "link": "https://capec.mitre.org/data/definitions/272.html",
+                        "children": {
+                            "CAPEC-90: Reflection Attack in Authentication Protocol": {
+                                "link": "https://capec.mitre.org/data/definitions/90.html",
+                                "children": {}
+                            },
+                            "CAPEC-220: Client-Server Protocol Manipulation": {
+                                "link": "https://capec.mitre.org/data/definitions/220.html",
+                                "children": {
+                                    "CAPEC-5: Blue Boxing": {
+                                        "link": "https://capec.mitre.org/data/definitions/5.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-33: HTTP Request Smuggling": {
+                                        "link": "https://capec.mitre.org/data/definitions/33.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-34: HTTP Response Splitting": {
+                                        "link": "https://capec.mitre.org/data/definitions/34.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-105: HTTP Request Splitting": {
+                                        "link": "https://capec.mitre.org/data/definitions/105.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-273: HTTP Response Smuggling": {
+                                        "link": "https://capec.mitre.org/data/definitions/273.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-274: HTTP Verb Tampering": {
+                                        "link": "https://capec.mitre.org/data/definitions/274.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-276: Inter-Component Protocol Manipulation": {
+                                "link": "https://capec.mitre.org/data/definitions/276.html",
+                                "children": {
+                                    "CAPEC-665: Exploitation of Thunderbolt Protection Flaws": {
+                                        "link": "https://capec.mitre.org/data/definitions/665.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-277: Data Interchange Protocol Manipulation": {
+                                "link": "https://capec.mitre.org/data/definitions/277.html",
+                                "children": {}
+                            },
+                            "CAPEC-278: Web Services Protocol Manipulation": {
+                                "link": "https://capec.mitre.org/data/definitions/278.html",
+                                "children": {
+                                    "CAPEC-201: Serialized Data External Linking": {
+                                        "link": "https://capec.mitre.org/data/definitions/201.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-221: Data Serialization External Entities Blowup": {
+                                        "link": "https://capec.mitre.org/data/definitions/221.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-279: SOAP Manipulation": {
+                                        "link": "https://capec.mitre.org/data/definitions/279.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-153: Input Data Manipulation": {
+                        "link": "https://capec.mitre.org/data/definitions/153.html",
+                        "children": {
+                            "CAPEC-126: Path Traversal": {
+                                "link": "https://capec.mitre.org/data/definitions/126.html",
+                                "children": {
+                                    "CAPEC-139: Relative Path Traversal": {
+                                        "link": "",
+                                        "children": {}
+                                    },
+                                    "CAPEC-597: Absolute Path Traversal": {
+                                        "link": "",
+                                        "children": {}
+                                    },
+                                    "CAPEC-76: Manipulating Web Input to File System Calls": {
+                                        "link": "",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-128: Integer Attacks": {
+                                "link": "https://capec.mitre.org/data/definitions/128.html",
+                                "children": {
+                                    "CAPEC-92: Forced Integer Overflow": {
+                                        "link": "",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-267: Leverage Alternate Encoding": {
+                                "link": "https://capec.mitre.org/data/definitions/267.html",
+                                "children": {
+                                    "CAPEC-120: Double Encoding": {
+                                        "link": "https://capec.mitre.org/data/definitions/120.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-3: Using Leading 'Ghost' Character Sequences to Bypass Input Filters": {
+                                        "link": "https://capec.mitre.org/data/definitions/3.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-4: Using Alternative IP Address Encodings": {
+                                        "link": "https://capec.mitre.org/data/definitions/4.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-43: Exploiting Multiple Input Interpretation Layers": {
+                                        "link": "https://capec.mitre.org/data/definitions/43.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-52: Embedding NULL Bytes": {
+                                        "link": "https://capec.mitre.org/data/definitions/52.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-53: Postfix, Null Terminate, and Backslash": {
+                                        "link": "https://capec.mitre.org/data/definitions/53.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-64: Using Slashes and URL Encoding Combined to Bypass Validation Logic": {
+                                        "link": "https://capec.mitre.org/data/definitions/64.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-71: Using Unicode Encoding to Bypass Validation Logic": {
+                                        "link": "https://capec.mitre.org/data/definitions/71.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-72: URL Encoding": {
+                                        "link": "https://capec.mitre.org/data/definitions/72.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-78: Using Escaped Slashes in Alternate Encoding": {
+                                        "link": "https://capec.mitre.org/data/definitions/78.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-79: Using Slashes in Alternate Encoding": {
+                                        "link": "https://capec.mitre.org/data/definitions/79.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-80: Using UTF-8 Encoding to Bypass Validation Logic": {
+                                        "link": "https://capec.mitre.org/data/definitions/80.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-28: Fuzzing": {
+                                "link": "https://capec.mitre.org/data/definitions/28.html",
+                                "children": {}
+                            },
+                            "CAPEC-33: HTTP Request Smuggling": {
+                                "link": "https://capec.mitre.org/data/definitions/33.html",
+                                "children": {}
+                            },
+                            "CAPEC-34: HTTP Response Splitting": {
+                                "link": "https://capec.mitre.org/data/definitions/34.html",
+                                "children": {}
+                            },
+                            "CAPEC-105: HTTP Request Splitting": {
+                                "link": "https://capec.mitre.org/data/definitions/105.html",
+                                "children": {}
+                            },
+                            "CAPEC-165: File Manipulation": {
+                                "link": "https://capec.mitre.org/data/definitions/165.html",
+                                "children": {
+                                    "CAPEC-73: User Controlled Filename": {
+                                        "link": "https://capec.mitre.org/data/definitions/73.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-572: Artificially Inflate File Sizes": {
+                                        "link": "https://capec.mitre.org/data/definitions/572.html",
+                                        "children": {
+                                            "CAPEC-655: Avoid Security Tool Identification by Adding Data": {
+                                                "link": "https://capec.mitre.org/data/definitions/655.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "CAPEC-635: Alternative Execution Due to Deceptive Filenames": {
+                                        "link": "https://capec.mitre.org/data/definitions/635.html",
+                                        "children": {
+                                            "CAPEC-649: Adding a Space to a File Extension": {
+                                                "link": "https://capec.mitre.org/data/definitions/649.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "CAPEC-636: Hiding Malicious Data or Code within Files": {
+                                        "link": "https://capec.mitre.org/data/definitions/636.html",
+                                        "children": {
+                                            "CAPEC-168: Windows ::DATA Alternate Data Stream": {
+                                                "link": "https://capec.mitre.org/data/definitions/168.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "CAPEC-74: Manipulating State": {
+                                "link": "https://capec.mitre.org/data/definitions/74.html",
+                                "children": {
+                                    "CAPEC-140: Bypassing of Intermediate Forms in Multiple-Form Sets": {
+                                        "link": "https://capec.mitre.org/data/definitions/140.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-663: Exploitation of TransientInstruction Execution": {
+                                        "link": "https://capec.mitre.org/data/definitions/663.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-75: Manipulating Writeable Configuration Files": {
+                                "link": "https://capec.mitre.org/data/definitions/75.html",
+                                "children": {}
+                            },
+                            "CAPEC-113: Interface Manipulation": {
+                                "link": "https://capec.mitre.org/data/definitions/113.html",
+                                "children": {
+                                    "CAPEC-133: Try All Common Switches": {
+                                        "link": "https://capec.mitre.org/data/definitions/133.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-160: Exploit Script-Based APIs": {
+                                        "link": "https://capec.mitre.org/data/definitions/160.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-176: Configuration/Environment Manipulation": {
+                                "link": "https://capec.mitre.org/data/definitions/176.html",
+                                "children": {
+                                    "CAPEC-75: Manipulating Writeable Configuration Files": {
+                                        "link": "https://capec.mitre.org/data/definitions/75.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-203: Manipulate Registry Information": {
+                                        "link": "https://capec.mitre.org/data/definitions/203.html",
+                                        "children": {
+                                            "CAPEC-51: Poison Web Service Registry": {
+                                                "link": "https://capec.mitre.org/data/definitions/51.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-270: Modification of Registry Run Keys": {
+                                                "link": "https://capec.mitre.org/data/definitions/270.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-478: Modification of Windows Service Configuration": {
+                                                "link": "https://capec.mitre.org/data/definitions/478.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "CAPEC-271: Schema Poisoning": {
+                                        "link": "https://capec.mitre.org/data/definitions/271.html",
+                                        "children": {
+                                            "CAPEC-146: XML Schema Poisoning": {
+                                                "link": "https://capec.mitre.org/data/definitions/146.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "CAPEC-536: Data Injection During Configuration": {
+                                        "link": "https://capec.mitre.org/data/definitions/536.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-578: Disable Security Software": {
+                                        "link": "https://capec.mitre.org/data/definitions/578.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-161: Infrastructure Manipulation": {
+                        "link": "https://capec.mitre.org/data/definitions/161.html",
+                        "children": {
+                            "CAPEC-481: Contradictory Destinations inTraffic Routing Schemes": {
+                                "link": "https://capec.mitre.org/data/definitions/481.html",
+                                "children": {}
+                            },
+                            "CAPEC-166: Force the System to Reset Values": {
+                                "link": "https://capec.mitre.org/data/definitions/166.html",
+                                "children": {}
+                            },
+                            "CAPEC-141: Cache Poisoning": {
+                                "link": "https://capec.mitre.org/data/definitions/141.html",
+                                "children": {
+                                    "CAPEC-51: Poison Web Service Registry": {
+                                        "link": "https://capec.mitre.org/data/definitions/51.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-142: DNS Cache Poisoning": {
+                                        "link": "https://capec.mitre.org/data/definitions/142.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-268: Audit Log Manipulation": {
+                                "link": "https://capec.mitre.org/data/definitions/268.html",
+                                "children": {
+                                    "CAPEC-93: Log Injection-Tampering-Forging": {
+                                        "link": "https://capec.mitre.org/data/definitions/93.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-81: Web Logs Tampering": {
+                                        "link": "https://capec.mitre.org/data/definitions/81.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-571: Block Logging to Central Repository": {
+                                "link": "https://capec.mitre.org/data/definitions/571.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-184: Software Integrity Attack": {
+                        "link": "https://capec.mitre.org/data/definitions/184.html",
+                        "children": {
+                            "CAPEC-185: Malicious Software Download": {
+                                "link": "https://capec.mitre.org/data/definitions/185.html",
+                                "children": {}
+                            },
+                            "CAPEC-186: Malicious Software Update": {
+                                "link": "https://capec.mitre.org/data/definitions/186.html",
+                                "children": {
+                                    "CAPEC-187: Malicious Automated Software Update via Redirection": {
+                                        "link": "https://capec.mitre.org/data/definitions/187.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-533: Malicious Manual Software Update": {
+                                        "link": "https://capec.mitre.org/data/definitions/553.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-614: Rooting SIM Cards ": {
+                                        "link": "https://capec.mitre.org/data/definitions/614.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-657: Malicious Automated Software Update via Spoofing": {
+                                        "link": "https://capec.mitre.org/data/definitions/657.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-663: Exploitation of Transient Instruction Execution": {
+                                "link": "https://capec.mitre.org/data/definitions/663.html",
+                                "children": {}
+                            },
+                            "CAPEC-669: Alteration of a Software Update": {
+                                "link": "https://capec.mitre.org/data/definitions/669.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-438: Modification During Manufacture": {
+                        "link": "https://capec.mitre.org/data/definitions/438.html",
+                        "children": {
+                            "CAPEC-444: Development Alteration": {
+                                "link": "https://capec.mitre.org/data/definitions/444.html",
+                                "children": {
+                                    "CAPEC-206: Signing Malicious Code": {
+                                        "link": "https://capec.mitre.org/data/definitions/206.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-443: Malicious Logic Inserted into Product Software by Authorized Developer": {
+                                        "link": "https://capec.mitre.org/data/definitions/443.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-445: Malicious Logic Insertion into Product Software via Configuration Management Manipulation": {
+                                        "link": "https://capec.mitre.org/data/definitions/445.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-446: Malicious Logic Insertion into Product Software via 3rd Party Component Dependency": {
+                                        "link": "https://capec.mitre.org/data/definitions/446.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-511: Infiltration of Software Development Environment": {
+                                        "link": "https://capec.mitre.org/data/definitions/511.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-516: Hardware Component Substitution During Baselining ": {
+                                        "link": "https://capec.mitre.org/data/definitions/516.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-520: Counterfeit Hardware Component Inserted During Product Assembly": {
+                                        "link": "https://capec.mitre.org/data/definitions/520.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-532: Altered Installed BIOS": {
+                                        "link": "https://capec.mitre.org/data/definitions/532.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-537: Infiltration of Hardware Development Environment": {
+                                        "link": "https://capec.mitre.org/data/definitions/537.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-538: Open-Source Library Manipulation": {
+                                        "link": "https://capec.mitre.org/data/definitions/538.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-539: ASIC with Malicious Functionality": {
+                                        "link": "https://capec.mitre.org/data/definitions/539.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-670: Software Development Tools Maliciously Altered": {
+                                        "link": "https://capec.mitre.org/data/definitions/670.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-672: Malicious Code Implanted During Chip Programming": {
+                                        "link": "https://capec.mitre.org/data/definitions/672.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-673: Developer Signing Maliciously Altered Software": {
+                                        "link": "https://capec.mitre.org/data/definitions/673.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-678: System Build Data Maliciously Altered": {
+                                        "link": "https://capec.mitre.org/data/definitions/678.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-447: Design Alteration": {
+                                "link": "https://capec.mitre.org/data/definitions/447.html",
+                                "children": {
+                                    "CAPEC-517: Documentation Alteration to Circumvent Dial-down": {
+                                        "link": "https://capec.mitre.org/data/definitions/517.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-518: Documentation Alteration to Produce Under-Performing Systems": {
+                                        "link": "https://capec.mitre.org/data/definitions/518.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-519: Documentation Alteration to Cause Errors in System Design": {
+                                        "link": "https://capec.mitre.org/data/definitions/519.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-521: Hardware Design Specifications are Altered": {
+                                        "link": "https://capec.mitre.org/data/definitions/512.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-671: Requirements for ASIC Functionality Maliciously Altered": {
+                                        "link": "https://capec.mitre.org/data/definitions/671.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-674: Design for FPGA Maliciously Altered": {
+                                        "link": "https://capec.mitre.org/data/definitions/674.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-440: Hardware Integrity Attack": {
+                        "link": "https://capec.mitre.org/data/definitions/440.html",
+                        "children": {
+                            "CAPEC-401: Physically Hacking Hardware": {
+                                "link": "https://capec.mitre.org/data/definitions/401.html",
+                                "children": {
+                                    "CAPEC-402: Bypassing ATA Password Security": {
+                                        "link": "https://capec.mitre.org/data/definitions/402.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-534: Malicious Hardware Update": {
+                                "link": "https://capec.mitre.org/data/definitions/534.html",
+                                "children": {
+                                    "CAPEC-531: Hardware Component Substitution": {
+                                        "link": "https://capec.mitre.org/data/definitions/531.html",
+                                        "children": {
+                                            "CAPEC-530: Provide Counterfeit Component": {
+                                                "link": "https://capec.mitre.org/data/definitions/530.html",
+                                                "children": {}
+                                            },
+                                            "CAPEC-535: Malicious Gray Market Hardware": {
+                                                "link": "https://capec.mitre.org/data/definitions/535.html",
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "CAPEC-677: Server Functionality Compromise": {
+                                        "link": "https://capec.mitre.org/data/definitions/677.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-439: Manipulation During Distribution": {
+                        "link": "https://capec.mitre.org/data/definitions/439.html",
+                        "children": {
+                            "CAPEC-522: Malicious Hardware Component Replacement": {
+                                "link": "https://capec.mitre.org/data/definitions/522.html",
+                                "children": {}
+                            },
+                            "CAPEC-523: Malicious Software Implanted": {
+                                "link": "https://capec.mitre.org/data/definitions/523.html",
+                                "children": {}
+                            },
+                            "CAPEC-524: Rogue Integration Procedures": {
+                                "link": "https://capec.mitre.org/data/definitions/524.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-441: Malicious Logic Insertion": {
+                        "link": "https://capec.mitre.org/data/definitions/441.html",
+                        "children": {
+                            "CAPEC-442: Infected Software": {
+                                "link": "https://capec.mitre.org/data/definitions/442.html",
+                                "children": {
+                                    "CAPEC-448: Embed Virus into DLL": {
+                                        "link": "https://capec.mitre.org/data/definitions/448.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-452: Infected Hardware": {
+                                "link": "https://capec.mitre.org/data/definitions/452.html",
+                                "children": {
+                                    "CAPEC-638: Altered Component Firmware": {
+                                        "link": "https://capec.mitre.org/data/definitions/638.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-456: Infected Memory": {
+                                "link": "https://capec.mitre.org/data/definitions/456.html",
+                                "children": {
+                                    "CAPEC-457: USB Memory Attacks": {
+                                        "link": "https://capec.mitre.org/data/definitions/457.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-458: Flash Memory Attacks": {
+                                        "link": "https://capec.mitre.org/data/definitions/458.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-548: Contaminate Resources": {
+                        "link": "https://capec.mitre.org/data/definitions/548.html",
+                        "children": {}
+                    },
+                    "CAPEC-594: Traffic Injection": {
+                        "link": "https://capec.mitre.org/data/definitions/594.html",
+                        "children": {
+                            "CAPEC-595: Connection Reset": {
+                                "link": "https://capec.mitre.org/data/definitions/595.html",
+                                "children": {
+                                    "CAPEC-596: TCP RST Injection": {
+                                        "link": "https://capec.mitre.org/data/definitions/596.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-624: Hardware Fault Injection": {
+                        "link": "https://capec.mitre.org/data/definitions/624.html",
+                        "children": {
+                            "CAPEC-625: Mobile Device Fault Injection": {
+                                "link": "https://capec.mitre.org/data/definitions/625.html",
+                                "children": {}
+                            }
+                        }
+                    }
+                }
+            },
+            "Spoofing": {
+                "link": "https://capec.mitre.org/data/definitions/156.html",
+                "children": {
+                    " CAPEC-148: Content Spoofing": {
+                        "link": "https://capec.mitre.org/data/definitions/148.html",
+                        "children": {
+                            "CAPEC-145: Checksum Spoofing": {
+                                "link": "https://capec.mitre.org/data/definitions/145.html",
+                                "children": {}
+                            },
+                            "CAPEC-218: Spoofing of UDDI/ebXML Messages": {
+                                "link": "https://capec.mitre.org/data/definitions/218.html",
+                                "children": {}
+                            },
+                            " CAPEC-502: Intent Spoof": {
+                                "link": "https://capec.mitre.org/data/definitions/502.html",
+                                "children": {}
+                            },
+                            " CAPEC-627: Counterfeit GPS Signals": {
+                                "link": "https://capec.mitre.org/data/definitions/627.html",
+                                "children": {
+                                    "CAPEC-628: Carry-Off GPS Attack": {
+                                        "link": "https://capec.mitre.org/data/definitions/628.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-151: Identity Spoofing": {
+                        "link": "https://capec.mitre.org/data/definitions/151.html",
+                        "children": {
+                            " CAPEC-194: Fake the Source of Data": {
+                                "link": "https://capec.mitre.org/data/definitions/194.html",
+                                "children": {
+                                    " CAPEC-275: DNS Rebinding": {
+                                        "link": "https://capec.mitre.org/data/definitions/275.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-543: Counterfeit Websites": {
+                                        "link": "https://capec.mitre.org/data/definitions/543.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-544: Counterfeit Organizations": {
+                                        "link": "https://capec.mitre.org/data/definitions/544.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-598: DNS Spoofing": {
+                                        "link": "https://capec.mitre.org/data/definitions/598.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-633: Token Impersonation": {
+                                        "link": "https://capec.mitre.org/data/definitions/633.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-195: Principal Spoof": {
+                                "link": "https://capec.mitre.org/data/definitions/195.html",
+                                "children": {
+                                    "CAPEC-587: Cross Frame Scripting (XFS)": {
+                                        "link": "https://capec.mitre.org/data/definitions/587.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-599: Terrestrial Jamming": {
+                                        "link": "https://capec.mitre.org/data/definitions/599.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            " CAPEC-473: Signature Spoof": {
+                                "link": "https://capec.mitre.org/data/definitions/473.html",
+                                "children": {
+                                    "CAPEC-459: Creating a Rogue Certification Authority Certificate": {
+                                        "link": "https://capec.mitre.org/data/definitions/459.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-474: Signature Spoofing by Key Theft": {
+                                        "link": "https://capec.mitre.org/data/definitions/474.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-475: Signature Spoofing by Improper Validation": {
+                                        "link": "https://capec.mitre.org/data/definitions/475.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-476: Signature Spoofing by Misrepresentation": {
+                                        "link": "https://capec.mitre.org/data/definitions/476.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-477: Signature Spoofing by Mixing Signed and Unsigned Content": {
+                                        "link": "https://capec.mitre.org/data/definitions/477.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-479: Malicious Root Certificate": {
+                                        "link": "https://capec.mitre.org/data/definitions/479.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-485: Signature Spoofing by Key Recreation": {
+                                        "link": "https://capec.mitre.org/data/definitions/485.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            " CAPEC-89: Pharming": {
+                                "link": "https://capec.mitre.org/data/definitions/89.html",
+                                "children": {}
+                            },
+                            "CAPEC-98: Phishing": {
+                                "link": "https://capec.mitre.org/data/definitions/98.html",
+                                "children": {
+                                    "CAPEC-163: Spear Phishing": {
+                                        "link": "https://capec.mitre.org/data/definitions/163.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-164: Mobile Phishing": {
+                                        "link": "https://capec.mitre.org/data/definitions/164.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-656: Voice Phishing": {
+                                        "link": "https://capec.mitre.org/data/definitions/656.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-154: Resource Location Spoofing": {
+                        "link": "https://capec.mitre.org/data/definitions/154.html",
+                        "children": {
+                            "CAPEC-159: Redirect Access to Libraries": {
+                                "link": "https://capec.mitre.org/data/definitions/159.html",
+                                "children": {
+                                    "CAPEC-132: Symlink Attack": {
+                                        "link": "https://capec.mitre.org/data/definitions/132.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-38: Leveraging/Manipulating Configuration File Search Paths": {
+                                        "link": "https://capec.mitre.org/data/definitions/38.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-471: Search Order Hijacking": {
+                                        "link": "https://capec.mitre.org/data/definitions/471.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-641: DLL Side-Loading": {
+                                        "link": "https://capec.mitre.org/data/definitions/641.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-141: Cache Poisoning": {
+                                "link": "https://capec.mitre.org/data/definitions/141.html",
+                                "children": {
+                                    "CAPEC-51: Poison Web Service Registry": {
+                                        "link": "https://capec.mitre.org/data/definitions/51.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-142: DNS Cache Poisoning": {
+                                        "link": "https://capec.mitre.org/data/definitions/142.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-616: Establish Rogue Location": {
+                                "link": "https://capec.mitre.org/data/definitions/616.html",
+                                "children": {
+                                    "CAPEC-505: Scheme Squatting": {
+                                        "link": "https://capec.mitre.org/data/definitions/505.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-611: BitSquatting": {
+                                        "link": "https://capec.mitre.org/data/definitions/611.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-615: Evil Twin Wi-Fi Attack": {
+                                        "link": "https://capec.mitre.org/data/definitions/615.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-617: Cellular Rogue Base Station": {
+                                        "link": "https://capec.mitre.org/data/definitions/617.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-630: TypoSquatting": {
+                                        "link": "https://capec.mitre.org/data/definitions/630.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-631: SoundSquatting": {
+                                        "link": "https://capec.mitre.org/data/definitions/631.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-632: Homograph Attack via Homoglyphs": {
+                                        "link": "https://capec.mitre.org/data/definitions/632.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-667: Bluetooth Impersonation AttackS (BIAS)": {
+                                        "link": "https://capec.mitre.org/data/definitions/667.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-173: Action Spoofing": {
+                        "link": "https://capec.mitre.org/data/definitions/173.html",
+                        "children": {
+                            "CAPEC-103: Clickjacking": {
+                                "link": "https://capec.mitre.org/data/definitions/103.html",
+                                "children": {
+                                    "CAPEC-181: Flash File Overlay": {
+                                        "link": "https://capec.mitre.org/data/definitions/181.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-222: iFrame Overlay": {
+                                        "link": "https://capec.mitre.org/data/definitions/222.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-501: Android Activity Hijack": {
+                                "link": "https://capec.mitre.org/data/definitions/501.html",
+                                "children": {}
+                            },
+                            "CAPEC-504: Task Impersonation": {
+                                "link": "https://capec.mitre.org/data/definitions/504.html",
+                                "children": {
+                                    "CAPEC-654: Credential Prompt Impersonation": {
+                                        "link": "https://capec.mitre.org/data/definitions/654.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-506: Tapjacking": {
+                                "link": "https://capec.mitre.org/data/definitions/506.html",
+                                "children": {}
+                            }
+                        }
+                    },
+                    "CAPEC-416: Manipulate Human Behavior": {
+                        "link": "https://capec.mitre.org/data/definitions/416.html",
+                        "children": {
+                            "CAPEC-407: Pretexting": {
+                                "link": "https://capec.mitre.org/data/definitions/407.html",
+                                "children": {
+                                    "CAPEC-383: Harvesting Information via API Event Monitoring": {
+                                        "link": "https://capec.mitre.org/data/definitions/383.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-412: Pretexting via Customer Service": {
+                                        "link": "https://capec.mitre.org/data/definitions/412.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-413: Pretexting via Tech Support": {
+                                        "link": "https://capec.mitre.org/data/definitions/413.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-414: Pretexting via Delivery Person": {
+                                        "link": "https://capec.mitre.org/data/definitions/414.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-415: Pretexting via Phone": {
+                                        "link": "https://capec.mitre.org/data/definitions/415.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-417: Influence Perception": {
+                                "link": "https://capec.mitre.org/data/definitions/417.html",
+                                "children": {
+                                    "CAPEC-418: Influence Perception of Reciprocation": {
+                                        "link": "https://capec.mitre.org/data/definitions/418.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-420: Influence Perception of Scarcity": {
+                                        "link": "https://capec.mitre.org/data/definitions/420.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-421: Influence Perception of Authority": {
+                                        "link": "https://capec.mitre.org/data/definitions/421.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-422: Influence Perception of Commitment and Consistency": {
+                                        "link": "https://capec.mitre.org/data/definitions/422.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-423: Influence Perception of Liking": {
+                                        "link": "https://capec.mitre.org/data/definitions/423.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-424: Influence Perception of Consensus or Social Proof": {
+                                        "link": "https://capec.mitre.org/data/definitions/424.html",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "CAPEC-425: Target Influence via Framing": {
+                                "link": "https://capec.mitre.org/data/definitions/425.html",
+                                "children": {}
+                            },
+                            "CAPEC-426: Influence via Incentives": {
+                                "link": "https://capec.mitre.org/data/definitions/426.html",
+                                "children": {}
+                            },
+                            "CAPEC-427: Influence via Psychological Principles": {
+                                "link": "https://capec.mitre.org/data/definitions/427.html",
+                                "children": {
+                                    "CAPEC-428: Influence via Modes of Thinking": {
+                                        "link": "https://capec.mitre.org/data/definitions/428.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-429: Target Influence via Eye Cues": {
+                                        "link": "https://capec.mitre.org/data/definitions/429.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-433: Target Influence via The Human Buffer Overflow": {
+                                        "link": "https://capec.mitre.org/data/definitions/433.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-434: Target Influence via Interview and Interrogation": {
+                                        "link": "https://capec.mitre.org/data/definitions/434.html",
+                                        "children": {}
+                                    },
+                                    "CAPEC-435: Target Influence via Instant Rapport": {
+                                        "link": "https://capec.mitre.org/data/definitions/435.html",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CAPEC-389: Content Spoofing Via Application API Manipulation": {
+                        "link": "https://capec.mitre.org/data/definitions/389.html",
+                        "children": {}
+                    }
+                }
+            }
+        }
+    }
+}
